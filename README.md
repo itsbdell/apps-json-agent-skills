@@ -2,7 +2,8 @@
 
 Small, agent-readable skills for creating and maintaining `apps.json` feeds.
 
-This repo is a thin distribution surface for the skills from the main
+This repo is the canonical agent-facing distribution surface for the setup and
+publisher skills around the main
 [`apps-json`](https://github.com/itsbdell/apps-json) project. It is meant to be
 easy to point an agent at:
 
@@ -86,3 +87,6 @@ the main repo:
 - Publishing docs: https://github.com/itsbdell/apps-json/blob/main/docs/PUBLISHING.md
 - CLI: https://www.npmjs.com/package/@apps-json/cli
 
+The skill text in this repo is the canonical agent-facing copy. The main repo
+may mirror the same `SKILL.md` files for reference, but changes to setup or
+publisher workflow should start here and then be mirrored back.
